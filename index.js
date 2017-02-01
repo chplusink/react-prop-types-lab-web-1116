@@ -1,4 +1,6 @@
-const Product = require('./components/Product');
+const React = require('react')
+const ReactDOM = require('react-dom')
+const Product = require('./components/Product')
 
 ReactDOM.render(
   <Product name="Dunder Mifflin" producer="PaperCo" color="white" weight={210} />,
